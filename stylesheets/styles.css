@@ -86,6 +86,7 @@ input {
   width: 25em;
   font-size: 18px;
   padding-left: 5px;
+  height: 100%;
 }
 
 .email:focus {
