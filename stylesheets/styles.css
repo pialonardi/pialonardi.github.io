@@ -1,0 +1,177 @@
+@font-face {
+  font-family: latoBold;
+  src: url("../fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: lato;
+  src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: latoHairline;
+  src: url("../fonts/Lato-Hairline.ttf");
+}
+
+@font-face {
+  font-family: selima;
+  src: url("../fonts/selima.otf");
+}
+
+body {
+  background-image: url("../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  justify-content: center;
+  display: flex;
+}
+
+
+#content {
+  justify-content: center;
+  color: white;
+}
+
+#title {
+  font-family: selima;
+  justify-content: center;
+  display: flex;
+  font-size: 86px;
+}
+
+#subtitle {
+  font-family: latoHairline;
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  font-size: 38px;
+  margin-bottom: 85px;
+}
+
+#maintext {
+  font-family: latoBold;
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  font-size: 58px;
+}
+
+#welcometext {
+  font-family: lato;
+  justify-content: center;
+  display: flex;
+  font-size: 30px;
+  margin-bottom: 45px;
+  margin-top: 85px;
+}
+
+.input-row {
+  display: flex;
+  height: 2.3em;
+}
+
+.email {
+  font-family: lato;
+  width: 25em;
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.email:focus {
+  outline: none;
+}
+
+.button {
+  font-family: lato;
+  color: gray;
+  text-transform: uppercase;
+  background-color: #313335;
+  height: 100%;
+  width: 9em;
+  border: none;
+  font-size: 14px;
+}
+
+.button:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 1050px) {
+  body {
+    background-position-x: center;
+  }
+
+  #subtitle {
+    font-size: 25px;
+  }
+  #welcometext {
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+  .input-row {
+    height: 3em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #title {
+    font-size: 65px;
+  }
+
+  #subtitle {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 80px;
+  }
+
+  #maintext {
+    font-size: 33px;
+    text-align: center;
+  }
+
+  #welcometext {
+    margin-top: 80px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  form {
+    display: block;
+  }
+
+  .input-row {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .email {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    width: auto;
+    margin-bottom: 5px;
+  }
+
+  .button {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    width: 100%;
+  }
+}
+
