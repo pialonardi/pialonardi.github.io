@@ -90,7 +90,6 @@ input {
   padding-top: 0;
   padding-bottom: 0;
   border-style: none;
-  -webkit-appearance: none;
 }
 
 .email:focus {
