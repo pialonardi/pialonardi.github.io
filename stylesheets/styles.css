@@ -131,7 +131,13 @@ input {
     font-size: 25px;
   }
   .input-row {
-    height: 3em;
+    height: auto;
+  }
+  .email {
+    height: 55px;
+  }
+  .button {
+    height: 55px;
   }
 }
 
