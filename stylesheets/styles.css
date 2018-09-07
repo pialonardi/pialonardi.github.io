@@ -32,6 +32,11 @@ form {
   display: flex;
 }
 
+input {
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
 
 #content {
   justify-content: center;
@@ -113,7 +118,8 @@ form {
   }
 
   #subtitle {
-    font-size: 25px;
+    font-family: lato;
+    font-size: 20px;
   }
   #welcometext {
     margin-bottom: 25px;
@@ -131,7 +137,7 @@ form {
 
   #subtitle {
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 80px;
   }
 
