@@ -76,6 +76,27 @@ input {
   margin-top: 85px;
 }
 
+#disclaimer {
+  font-family: lato;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+a {
+  font-family: lato;
+  color: white;   
+}
+
+a:hover {
+  color: gray;
+}
+
+
+a:focus {
+  outline: none;
+}
+
 .input-row {
   display: flex;
   height: 2.3em;
